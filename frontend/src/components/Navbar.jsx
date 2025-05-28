@@ -156,8 +156,8 @@ export default function Navbar() {
             {[
               { to: '/', label: 'Home' },
               { to: '/sweets', label: 'Sweets' },
-              { to: '/dairy', label: 'Dairy Products' },
-              { to: '/milk', label: 'Fresh Milk' },
+              // { to: '/dairy', label: 'Dairy Products' },
+              // { to: '/milk', label: 'Fresh Milk' },
               { to: '/contact', label: 'Contact' },
             ].map((item) => (
               <Link
@@ -215,8 +215,8 @@ export default function Navbar() {
             {[
               { to: '/', label: 'Home' },
               { to: '/sweets', label: 'Sweets' },
-              { to: '/dairy', label: 'Dairy Products' },
-              { to: '/milk', label: 'Fresh Milk' },
+              // { to: '/dairy', label: 'Dairy Products' },
+              // { to: '/milk', label: 'Fresh Milk' },
               { to: '/contact', label: 'Contact' },
             ].map((item) => (
               <Link
